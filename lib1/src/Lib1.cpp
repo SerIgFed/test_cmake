@@ -20,4 +20,4 @@ int Lib1::dummy(int param) const {
   return param;
 }
 
-}
+} // namespace lib1

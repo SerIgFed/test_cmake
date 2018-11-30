@@ -6,13 +6,11 @@
 namespace lib1 {
 
 struct Lib1 {
-  Lib1() {
-    LOG(INFO) << "hello" << std::endl;
-  }
+  Lib1() { LOG(INFO) << "hello" << std::endl; }
 
   int dummy(int param = 0) const;
 };
 
-}
+} // namespace lib1
 
 #endif

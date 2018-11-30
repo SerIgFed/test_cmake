@@ -1,8 +1,8 @@
 #include "lib1/Lib1.h"
 
 #include <boost/program_options.hpp>
-#include <iostream>
 #include <glog/logging.h>
+#include <iostream>
 
 int main(int argc, char **argv) {
   std::ios_base::sync_with_stdio(false);
